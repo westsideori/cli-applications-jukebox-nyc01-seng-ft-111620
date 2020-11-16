@@ -40,8 +40,7 @@ def play(songs)
     puts "Playing #{songs[choice - 1]}"
   end
   if songs.include?(choice)
-    index = songs.index(choice)
-    puts "Playing #{songs[index]}"
+    puts "Playing #{choice}"
     
 
 
