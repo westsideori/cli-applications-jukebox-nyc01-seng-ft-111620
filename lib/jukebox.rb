@@ -37,7 +37,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.strip
   if choice <= 9 && choice >= 1
-    puts "Playing #{songs[choice - 1]"
+    puts "Playing #{songs[choice - 1]}"
     
 
 
