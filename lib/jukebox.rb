@@ -41,6 +41,7 @@ def play(songs)
   end
   if songs.include?(choice)
     
+    
 
 
 
