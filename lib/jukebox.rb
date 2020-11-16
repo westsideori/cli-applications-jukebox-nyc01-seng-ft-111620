@@ -41,7 +41,7 @@ def play(songs)
   elsif songs.include?(choice)
     puts "Playing #{choice}"
   else
-    puts ""
+    puts "Invalid input, please try again"
     
 
 
