@@ -39,7 +39,7 @@ def play(songs)
   if choice <= 9 && choice >= 1
     puts "Playing #{songs[choice - 1]}"
   end
-  if choice == songs.includes?
+  if choice == songs.include?
     
 
 
